@@ -35,6 +35,10 @@ body {
   display: flex;
   flex-direction: column;
 }
+.card-pricing .card-body img{
+  text-align: center !important;
+  margin: auto;
+}
 
 .card-pricing h4 {
   font-size: 1.5rem;
