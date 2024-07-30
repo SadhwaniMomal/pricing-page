@@ -1,112 +1,94 @@
 body {
-    background-color: #f9f9f9;
-    font-family: Arial, sans-serif;
-  }
-  .pricing-plan {
-    padding: 50px 0;
-  }
-  .pricing-heading h2 {
-    font-size: 2.5rem;
-    color: #333;
-    font-weight: bold;
-  }
-  .pricing-heading p {
-    font-size: 1rem;
-    color: #777;
-  }
-  .card-pricing {
-    border-radius: 15px;
-    transition: transform 0.3s;
-  }
-  .card-pricing:hover {
-    transform: scale(1.05);
-  }
-  .card-pricing .card-body {
-    padding: 30px;
-  }
-  .card-pricing h4 {
-    font-size: 1.5rem;
-    color: #555;
-  }
-  .plan-detail {
-    border-radius: 5px;
-    font-weight: bold;
-  }
-  .border-custom-basic {
-    border-top: 5px solid #007bff;
-  }
-  .border-custom-standard {
-    border-top: 5px solid #28a745;
-  }
-  .border-custom-premium {
-    border-top: 5px solid #ffc107;
-  }
-  .shadow-custom {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  .shadow-light {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
-  }
-  .bg-custom-basic {
-    background-color: #007bff;
-  }
-  .bg-custom-standard {
-    background-color: #28a745;
-  }
-  .bg-custom-premium {
-    background-color: #ffc107;
-  }
-  .list-group-item {
-    border: 0;
-    padding: 10px 0;
-    font-size: 0.95rem;
-  }
-  .list-group-item i {
-    margin-right: 10px;
-    /* color: #007bff; */
-  }
-  .list-group-item .cancel-icon {
-    color: #dc3545;
-  }
-  .delivery{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-  }
-  .delivery a {
-    
-    text-decoration: none;
-    /* padding: 5px; */
-    font-size: 1rem;
-    border-radius: 5px;
-  }
-  .border-custom-standard .card-body .list-group .hight-light{
-    color: #28a745;
-    font-weight: 700;
-  }
-  .border-custom-standard .card-body .list-group .hight-light i{
-    color: #28a745 !important;
-    font-weight: 700;
-  }
-
-  .border-custom-premium .card-body .list-group .hight-light , .border-custom-premium .card-body .list-group .hight-light i{
-    color: #ffc107;
-    font-weight: 700;
-  }
-  
-  .border-custom-premium .card-body .list-custom-premium .list-group-item i{
-    color: #ffc107 !important;
-  }
-
-  .border-custom-standard .card-body .list-custom-standard .list-group-item i{
-    color: #28a745 !important;
-  }
-  
-  .border-custom-basic .card-body .list-custom-basic .list-group-item i{
-    color:#007bff ;
-  }
-  .border-custom-basic .card-body .list-custom-basic .high-light i{
-    color:#dc3545 ;
-  }
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden; /* Ensure no horizontal overflow */
+}
+.pricing-plan {
+  padding: 50px 0;
+}
+.pricing-heading h2 {
+  font-size: 2.5rem;
+  color: #333;
+  font-weight: bold;
+}
+.pricing-heading p {
+  font-size: 1rem;
+  color: #777;
+}
+.card-pricing {
+  border-radius: 15px;
+  transition: transform 0.3s;
+}
+.card-pricing:hover {
+  transform: scale(1.05);
+}
+.card-pricing .card-body {
+  padding: 30px;
+}
+.card-pricing h4 {
+  font-size: 1.5rem;
+  color: #555;
+}
+.plan-detail {
+  border-radius: 5px;
+  font-weight: bold;
+}
+.border-custom-basic {
+  border-top: 5px solid #007bff;
+}
+.border-custom-standard {
+  border-top: 5px solid #28a745;
+}
+.border-custom-premium {
+  border-top: 5px solid #ffc107;
+}
+.shadow-custom {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.shadow-light {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.bg-custom-basic {
+  background-color: #007bff;
+}
+.bg-custom-standard {
+  background-color: #28a745;
+}
+.bg-custom-premium {
+  background-color: #ffc107;
+}
+.list-group-item {
+  border: 0;
+  padding: 10px 0;
+  font-size: 0.95rem;
+}
+.list-group-item i {
+  margin-right: 10px;
+}
+.list-group-item .cancel-icon {
+  color: #dc3545;
+}
+.delivery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.delivery a {
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.border-custom-standard .hight-light {
+  color: #28a745;
+  font-weight: 700;
+}
+.border-custom-premium .hight-light,
+.border-custom-premium .hight-light i {
+  color: #ffc107;
+  font-weight: 700;
+}
+.border-custom-basic .high-light i {
+  color: #dc3545;
+}
